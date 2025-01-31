@@ -110,3 +110,12 @@ Use this section to outline areas that you want to continue focusing on in futur
 This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
 **Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+
+### Developer notes
+Project bootstrapped by:
+- [Bootstrap from Vite React-TS project](https://tailwindcss.com/docs/installation/using-postcss)
+  - npm create vite@latest room-homepage -- --template react-ts
+  - cd room-homepage
+  - npm install
+- [Install Tailwind w/ Vite](https://tailwindcss.com/docs/installation/using-vite) 
+  - npm install -D tailwindcss @tailwindcss/vite

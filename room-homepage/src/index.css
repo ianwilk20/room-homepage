@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'League Spartan';
+    src: url('./assets/fonts/LeagueSpartan-VariableFont_wght.ttf')
+        format('truetype');
+    font-style: normal;
+}
+
+@import 'tailwindcss';
+
+:root {
+    font-family: 'League Spartan', system-ui, Avenir, Helvetica, Arial,
+        sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+
+    color-scheme: light;
+    color: black;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    background: white;
+    display: flex;
+    width: 100%;
+    min-width: 320px;
+    min-height: 100vh;
+    color: black;
+}
